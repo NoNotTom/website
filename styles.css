@@ -1,0 +1,118 @@
+body {
+    background-color: #EBF4F6;
+}
+
+h1 {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+      }
+
+#title{
+    background: linear-gradient(to bottom, #088395, #37B7C3, #EBF4F6);
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.name {
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #071952;
+}
+
+.title-text {
+    padding-top: 20px;
+    color: #071952;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+
+.profile-img {
+    height: 250px;
+    border-radius: 50%;
+}
+
+.body-title {
+    padding-top: 20px;
+    color: #071952 !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.body-text{
+    color: #071952;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    
+}
+
+.small-body-text{
+    color: #071952;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+}
+
+.image-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    padding: 5px;
+    background-color: #071952;
+}
+
+.skills-img {
+    height: 50px;
+    width: 50px;
+}
+
+.btn-tom {
+    background-color: #088395;
+    color: #EBF4F6;
+    border: solid 2px #088395;
+}
+
+.btn-tom:hover {
+    background-image: linear-gradient(to bottom, #088395, #071952);
+    color: #EBF4F6;
+    border: solid 2px #088395;
+}
+
+.btn-outline-tom {
+    background-color: #EBF4F6;
+    color: #088395;
+    border: solid 2px #088395;
+}
+
+.btn-outline-tom:hover {
+    background-image: linear-gradient(to bottom, #088395, #071952);
+    color: #EBF4F6;
+    border: solid 2px #088395;
+}
+
+#footer{
+    background: linear-gradient(to top, #088395, #37B7C3, #EBF4F6);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#footer p, .coloring{
+    color: #071952 !important;
+}
+
+
+
+
+
+
+
+
+/*
+Colour Scheme = https://colorhunt.co/palette/07195208839537b7c3ebf4f6
+*/
